@@ -76,7 +76,7 @@ void loop() {
             client.println("<style>body { text-align: center; font-family: \"Trebuchet MS\", Arial; margin-left:auto; margin-right:auto; }");
             client.println("button { padding: 20px; font-size: 20px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; cursor: pointer; }");
             client.println("button:hover { background-color: #45a049; }</style>");
-            client.println("</head><body><h1>ESP32 Servo Control</h1>");
+            client.println("</head><body><h1>ADL - Fechadura Automática</h1>");
             client.println("<button onclick=\"location.href='/rotate'\">Abrir</button>");
             client.println("</body></html>");
 
